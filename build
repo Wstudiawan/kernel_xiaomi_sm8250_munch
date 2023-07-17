@@ -1,8 +1,8 @@
 #!/bin/bash
+export KERNEL_DIR=$PWD
 cd ..
 MAIN=$PWD
-cd kernel_xiaomi_sm8250
-export KERNEL_DIR=$PWD
+cd $KERNEL_DIR
 export ANYKERNEL_DIR=$KERNEL_DIR/AnyKernel3
 export ARCH="arm64"
 export CLANG_DIR="$MAIN/clang"
