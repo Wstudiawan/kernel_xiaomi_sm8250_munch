@@ -1,8 +1,8 @@
 #!/bin/bash
+KERNEL_DIR=$PWD
 cd ..
 MAIN=$PWD
-cd kernel_xiaomi_sm8250
-KERNEL_DIR=$PWD
+cd $KERNEL_DIR
 ANYKERNEL_DIR=$KERNEL_DIR/AnyKernel3
 CLANG_DIR=$MAIN/clang
 compiler_name="Oxygen"
