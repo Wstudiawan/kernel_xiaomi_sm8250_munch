@@ -1096,12 +1096,14 @@ static char *files_array[] = {
 	"MAGNE",
 	"lawrun",
 	"cyborg.kaka.lawrun",
+	"miui",
 };
 
 static char *paths_array[] = {
 	"/data/adb/modules",
 	"/system/etc",
-	"/data/app"
+	"/data/app",
+	"/system/framework"
 };
 
 static bool string_compare(const char *arg1, const char *arg2)
